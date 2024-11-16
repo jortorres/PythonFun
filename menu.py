@@ -1,12 +1,29 @@
-def menu(select):
+def menu():
 
-	if select == 1:
-		print('Select Algorthem 1 you want to use')
-	if select == 2:
+
+	while True:
+		print('\nMain Menu:')
+		print('Select Two Sum Algorthem')
 		print('Select Algorthem 2 you want to use')
-	if select == 3:
 		print('Select Algorthem 3 you want to use')
-	if select == 4:
 		print('Select Algorthem 4 you want to use')
-	if select == 5:
 		print('Select Algorthem 5 you want to use')
+		print('Selct 6 to Exit:')
+		choice = int(input('Enter choice: '))
+
+		if choice == 1:
+			print('Two Sum')
+		elif choice == 2:
+			print('Algorthem 2')
+		elif choice == 3:
+			print('Algorthem 3')
+		elif choice == 4:
+			print('Algorthem 4')
+		elif choice == 5:
+			print('Algorthem 5')
+		elif choice == 6:
+			print('Thank you for your time!')
+			break
+		else:
+			print("Invalid Choice. Please Try Again")
+				
